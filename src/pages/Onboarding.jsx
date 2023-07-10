@@ -1,5 +1,5 @@
 const Onboarding = () => {
-  return <div></div>;
+  return <div>onboarding</div>;
 };
 
 export default Onboarding;
