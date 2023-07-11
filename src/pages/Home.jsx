@@ -9,9 +9,9 @@ const Home = () => {
 
   return (
     <>
-      <Nav />
+      <Nav logo={logo} authToken={authToken} />
       <div className="home">
-        <h1>Find your Gym Mate</h1>
+        <h1 className="h1-home">Gym Mate</h1>
         <button className="primary-btn" onClick={handleClick}>
           {authToken ? "Signout" : "Create Account"}
         </button>

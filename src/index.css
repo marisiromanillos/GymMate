@@ -1,1 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:wght@300;400;500;600&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  background: #1c1c1e;
+}
+
+* {
+  font-family: "Caprasimo", cursive;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+}
+
+/* Home Page */
+
+.h1-home {
+  color: #fff;
+  font-family: "Caprasimo", cursive;
+  font-size: 3.5rem;
+  letter-spacing: 0.2rem;
+}
+.primary-btn {
+  color: #fff;
+  background: #ff1ff4;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Poppins;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+}
+
+.primary-btn:hover {
+  background: #067dfc;
+}
+
+/* Home Page */
