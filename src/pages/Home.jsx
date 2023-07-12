@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <>
-      <Nav logo={logo} authToken={authToken} />
+      <Nav />
       <div className="home">
         <h1 className="h1-home">Gym Mate</h1>
         <button className="primary-btn" onClick={handleClick}>

@@ -13,6 +13,8 @@ html {
 
 body {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* Home Page */
@@ -38,4 +40,7 @@ body {
   background: #067dfc;
 }
 
-/* Home Page */
+.nav-btn {
+}
+
+/* Nav */
