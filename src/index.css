@@ -40,7 +40,32 @@ body {
   background: #067dfc;
 }
 
-.nav-btn {
+/* Nav */
+
+nav {
+  width: auto;
+  height: auto!;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }
 
-/* Nav */
+nav .logo-container {
+  width: 100px;
+  margin: 15px;
+}
+
+nav .logo-container .logo {
+  width: 100%;
+}
+
+.nav-btn {
+  color: #fff;
+  background: #ff1ff4;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Poppins;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: none;
+}
